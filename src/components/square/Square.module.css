@@ -1,7 +1,7 @@
 .square {
-    width: 30%;
-    height: 30%;
-    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    border: .3rem solid black;
     margin: 0;
     background-color: white;
 }

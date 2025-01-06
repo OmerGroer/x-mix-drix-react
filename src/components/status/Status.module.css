@@ -4,6 +4,7 @@
     width: fit-content;
     margin: auto;
     padding: .3em .5em;
+    margin-top: .3em;
 }
 
 .status.button {

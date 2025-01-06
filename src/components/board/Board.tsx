@@ -11,8 +11,18 @@ interface BoardProps {
 const Board: FC<BoardProps> = ({ squares, onPlay }) => {
   return (
     <div className={style.board}>
-      {[...Array(9)].map((_, i) => (
-        <Square value={squares[i]} onSquareClick={() => onPlay(i)} />
+      {[...Array(3)].map((_, i) => (
+        <div className={style.row}>
+          {[...Array(3)].map((_, j) => {
+            const index = i * 3 + j;
+            return (
+              <Square
+                value={squares[index]}
+                onSquareClick={() => onPlay(index)}
+              />
+            );
+          })}
+        </div>
       ))}
     </div>
   );
