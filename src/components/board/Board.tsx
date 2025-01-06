@@ -1,6 +1,7 @@
 import { FC } from "react";
 import style from "./Board.module.css";
-import Square, { SquareType } from "../square/Square";
+import Square from "../square/Square";
+import { SquareType } from "../../App";
 
 interface BoardProps {
   squares: Array<SquareType>;

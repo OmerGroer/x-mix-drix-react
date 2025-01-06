@@ -2,12 +2,7 @@ import { FC } from "react";
 import style from "./Square.module.css";
 import xImg from "../../assets/x.jpg";
 import oImg from "../../assets/o.png";
-
-enum SquareType {
-  X = "X",
-  O = "O",
-  EMPTY = "",
-}
+import { SquareType } from "../../App";
 
 interface SquareProps {
   value: SquareType;
@@ -26,4 +21,3 @@ const Square: FC<SquareProps> = ({ value, onSquareClick }) => {
 };
 
 export default Square;
-export { SquareType };
