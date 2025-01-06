@@ -1,0 +1,12 @@
+.status {
+    color: white;
+    background-color: #2C2A2A;
+    width: fit-content;
+    margin: auto;
+    padding: .3em .5em;
+}
+
+.status.button {
+    cursor: pointer;
+    margin-top: .3em;
+}
