@@ -1,0 +1,10 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 50vw;
+    max-height: 50vh;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+}
