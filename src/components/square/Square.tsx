@@ -26,3 +26,4 @@ const Square: FC<SquareProps> = ({ value, onSquareClick }) => {
 };
 
 export default Square;
+export { SquareType };
